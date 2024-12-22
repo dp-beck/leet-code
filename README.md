@@ -4,7 +4,6 @@ A repository of work solving common leetcode problems.
 Problems Solved:
 
 1. Two Sum
+2. Running Summ of 1D Array
 
-Probelms In Progress:
-
-1. Running Sum of 1D Array
+Problems In Progress:
