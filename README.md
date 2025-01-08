@@ -7,6 +7,7 @@ Problems Solved:
 2. Running Sum of 1D Array
 3. FizzBuzz
 4. Middle of the Linked List
+5. Ransom Note
+6. Is Unique
 
 Problems In Progress:
-5. Ransom Note

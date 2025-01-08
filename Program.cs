@@ -26,3 +26,8 @@ Console.WriteLine("FizzBuzz");
 Console.WriteLine("Input: 15");
 Console.WriteLine($"Result: [{string.Join(", ", fizzBuzzResult)}]");
 Console.WriteLine();
+
+// Is Unique String
+var isUniqueStringSolution = new IsUniqueStringSolution();
+Console.WriteLine("Alabama is a unique string: " + isUniqueStringSolution.IsUniqueString("Alabama"));
+Console.WriteLine("Taco is a unique string: " + isUniqueStringSolution.IsUniqueString("Taco"));
