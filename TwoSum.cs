@@ -20,7 +20,7 @@ namespace leet_code
 {
     public class TwoSumSolution
     {
-        public int[] TwoSum(int[] nums, int target)
+        public int[] TwoSumBrute(int[] nums, int target)
         {
             for (int i = 0; i < nums.Length; i++)
             {
@@ -33,6 +33,25 @@ namespace leet_code
                 }
             }
             return new int[] { 0, 0 };
+        }
+
+        public int[] TwoSumDictionary(int[] nums, int target)
+        {
+            var dict = new Dictionary<int, int>();
+            for (int i = 0; i < nums.Length; i++)
+            {
+                dict[nums[i]] = i;   
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                int complement = target - nums[i];
+                if (dict.ContainsKey(complement) && dict[complement] != i)
+                {
+                    return new int[] { i, dict[complement]};
+                }
+            }
+            return new int[]{};
         }
     }
 }
