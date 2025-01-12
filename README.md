@@ -9,5 +9,7 @@ Problems Solved:
 4. Middle of the Linked List
 5. Ransom Note
 6. Is Unique
+7. Palindrome Number
 
 Problems In Progress:
+
