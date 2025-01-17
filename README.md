@@ -10,6 +10,7 @@ Problems Solved:
 5. Ransom Note
 6. Is Unique
 7. Palindrome Number
+8. Add Two Numbers
 
 Problems In Progress:
 
