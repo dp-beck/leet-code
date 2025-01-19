@@ -11,6 +11,8 @@ Problems Solved:
 6. Is Unique
 7. Palindrome Number
 8. Add Two Numbers
+9. Merge Sorted Array
+10. Remove Element
 
 Problems In Progress:
 
