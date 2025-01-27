@@ -13,6 +13,6 @@ Problems Solved:
 8. Add Two Numbers
 9. Merge Sorted Array
 10. Remove Element
+11. Remove Duplicates from Sorted Array
 
 Problems In Progress:
-

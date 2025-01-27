@@ -1,4 +1,5 @@
 ﻿using leet_code;
+using Microsoft.VisualBasic;
 
 // Two Sum
 var twoSumSolution = new TwoSumSolution();
@@ -76,3 +77,12 @@ System.Console.WriteLine("\nRemove Element");
 var removeElementResult2 = removeElement.Remove(new int[] { 0,1,2,2,3,0,4,2}, 2);
 Console.WriteLine("Input: [0, 1, 2, 2, 3, 0, 4, 2], Target: 2");
 Console.WriteLine($"Result: {removeElementResult2}");
+
+// Remove Duplicsates
+var removeDuplicates = new RemoveDuplicates();
+var removeDuplicatesResult = removeDuplicates.RemoveDuplicatesSolution(new int[] { 0,0,1,1,1,2,2,3,3,4 });
+Console.WriteLine("Remove Duplicates");
+Console.WriteLine("Input: [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]");
+Console.WriteLine($"Result: {removeDuplicatesResult}");
+
+// 0, 1, 2, 3, 4, 2, 2, 3, 3, 4
