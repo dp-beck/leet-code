@@ -86,3 +86,7 @@ Console.WriteLine("Input: [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]");
 Console.WriteLine($"Result: {removeDuplicatesResult}");
 
 // 0, 1, 2, 3, 4, 2, 2, 3, 3, 4
+
+// Majority Element
+var majorityElement = new MajorityElement();
+var result1 = majorityElement.MajorityElementSolution(new int[] { 3, 2, 3 });

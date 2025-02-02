@@ -14,5 +14,6 @@ Problems Solved:
 9. Merge Sorted Array
 10. Remove Element
 11. Remove Duplicates from Sorted Array
-
+12. Majority Element
 Problems In Progress:
+
