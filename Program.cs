@@ -90,3 +90,14 @@ Console.WriteLine($"Result: {removeDuplicatesResult}");
 // Majority Element
 var majorityElement = new MajorityElement();
 var result1 = majorityElement.MajorityElementSolution(new int[] { 3, 2, 3 });
+
+// One Away
+var oneAway = new OneAway();
+var oneAwayResult = oneAway.OneAwaySolution("pale", "ple");
+Console.WriteLine("One Away");
+Console.WriteLine("Input: pale, ple");
+Console.WriteLine($"Result: {oneAwayResult}");
+
+var oneAwayResult2 = oneAway.OneAwaySolution("pale", "baled");
+Console.WriteLine("Input: pale, baled");
+Console.WriteLine($"Result: {oneAwayResult2}");

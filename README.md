@@ -15,6 +15,6 @@ Problems Solved:
 10. Remove Element
 11. Remove Duplicates from Sorted Array
 12. Majority Element
+13. One Away
 
 Problems In Progress:
-13. One Away

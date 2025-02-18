@@ -29,8 +29,23 @@ public class OneAway
 
     public bool OneEditInsert(string str1, string str2)
     {
-        
-        return false;
+        int index1 = 0;
+        int index2 = 0;
+
+        while (index1 < str1.Length && index2 < str2.Length)
+        {
+            if (str1[index1] != str2[index2])
+            {
+                if (index1 != index2) return false;
+                index2++;
+            } else
+            {
+                index1++;
+                index2++;
+            }
+        }
+
+        return true;
     }
 
 }
